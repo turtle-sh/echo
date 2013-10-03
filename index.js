@@ -3,7 +3,7 @@ define({
   name: "echo",
   
   "fn": function(text) {
-    this.stdout.write(text);
+    this.stdout.log(text);
     this.exit();
   },
 
